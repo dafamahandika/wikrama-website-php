@@ -27,6 +27,8 @@ body {
 }
 
 header {
+  /* width: 100%;
+  position: fixed; */
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -234,4 +236,109 @@ footer {
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/* footer end */
+
+/* sejarah */
+.text-sejarah {
+  margin: 20px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+}
+/* kantin */
+.text-kantin {
+  margin: 15px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.desc-kantin {
+  margin-top: 20px;
+  width: 80%;
+  text-align: justify;
+}
+
+/* jurusan */
+.jurusan {
+  font-weight: bold;
+  color: #ffff;
+  opacity: 0.8;
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  grid-gap: 10px;
+  justify-content: space-between;
+}
+
+.jurusan a {
+  color: #fff;
+  /* opacity: 0.9; */
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card-jurusan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 35px;
+  height: 250px;
+  width: 550px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.card-jurusan:hover {
+  border-radius: 10px;
+  background-color: #ffb75e;
+  text-decoration: underline;
+}
+
+.rpl {
+  padding: 5px;
+  margin: 15px auto;
+  grid-column: 1/-1;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  width: 620px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.rpl a {
+  color: #fff;
+  opacity: 0.9;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.rpl a:hover {
+  text-decoration: underline;
+}
+
+.rpl:hover {
+  border-radius: 10px;
+  background-color: #ffb75e;
 }
