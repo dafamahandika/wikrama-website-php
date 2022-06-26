@@ -3,7 +3,7 @@
 
 :root {
   --gradient1: linear-gradient(45deg, #f7b733, #fc4a1a);
-  --gradient2: linear-gradient(45deg, #f2c94c, #f2994a);
+  --gradient2: linear-gradient(to bottom, #f5af19, #f12711);
   --gradient3: linear-gradient(45deg, #ed8f03, #ffb75e);
 }
 
@@ -15,14 +15,14 @@
 body {
   background-image: var(--gradient1);
   background-size: 400%;
-  animation: bg-animation 3s infinite alternate;
+  animation: bg-animation 5s infinite alternate;
 }
 @keyframes bg-animation {
   0% {
-    background-position: left;
+    background-position: right;
   }
   100% {
-    background-position: right;
+    background-position: left;
   }
 }
 
@@ -110,4 +110,128 @@ header a {
 .desc2 {
   text-align: justify;
   width: 75%;
+}
+/* beranda end  */
+
+.qoute {
+  color: #ffff;
+  opacity: 0.8;
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  grid-gap: 10px;
+}
+
+.komitmen {
+  padding: 5px;
+  margin: 10px auto;
+  grid-column: 1/-1;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  width: 550px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.komitmen:hover {
+  border-radius: 10px;
+  background-color: #ffb75e;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 35px;
+  height: 250px;
+  width: 550px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.card:hover {
+  border-radius: 10px;
+  background-color: #ffb75e;
+}
+/* card end  */
+
+/* footer */
+
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f76e11;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.footer-bagian {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.foto-wikrama {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.foto-wikrama img {
+  width: 50%;
+  margin: auto;
+}
+.list-halaman {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list-halaman ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 5px;
+}
+
+.list-halaman ul li a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  transition: 2s;
+}
+
+.list-halaman ul li a :hover {
+  color: #0000;
+}
+
+.kontak {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.kontak .alamat h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kontak .telepon h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
