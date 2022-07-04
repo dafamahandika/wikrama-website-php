@@ -1,3 +1,5 @@
+<title>SMK Wikrama Bogor | Matrikulasi</title>
+
 <div class="main">
       <div class="desc1">
         <h2>SMK Wikrama Bogor | Matrikulasi</h2>

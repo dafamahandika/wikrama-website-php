@@ -1,4 +1,6 @@
-    <div class="main">
+<title>SMK Wikrama Bogor | Sejarah</title>
+
+   <div class="main">
       <div class="desc1">
         <h2>SMK Wikrama Bogor | Sejarah</h2>
         <p><i>"Wikrama !!! Untuk Indonesia "</i></p>
